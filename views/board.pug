@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  p parameters
+  if query
+    p rows= #{query.rows}, cols= #{query.cols}
+
+
+  
